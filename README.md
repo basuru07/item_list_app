@@ -61,12 +61,19 @@ A simple Flutter application that displays a list of items loaded from a local J
 ```
 item_list_app/
 ├── assets/
-│   ├── data.json              # JSON file with item data
-│   ├── images/                # Image assets for items
+│   ├── data.json                     # JSON file with item data
+│   ├── images/                       # Image assets for items
 ├── lib/
-│   ├── main.dart              # Main app code (model, provider, screens)
-├── pubspec.yaml               # Project dependencies and assets
-├── README.md                  # This file
+│   ├── models/
+|   │   ├── item.dart                 # Defines the Item data model class        
+│   ├── providers/
+|   │   ├── item_provider.dart        # Manages application state for items using Provider
+│   ├── screens/
+|   │   ├── getstarted.dart           # Initial welcome/splash screen
+|   │   ├── item_detail_screen.dart   # Shows detailed view of a single item
+|   │   ├── item_list_screen.dart     # Displays list of all available items  
+├── pubspec.yaml                      # Project dependencies and assets
+├── README.md                         # This file
 ```
 
 ## Dependencies
