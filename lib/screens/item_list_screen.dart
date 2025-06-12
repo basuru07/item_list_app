@@ -23,9 +23,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
       appBar: AppBar(
           title: const Text(
             'ITEMS',
-            style: TextStyle(fontWeight: FontWeight.bold),
+            style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
           ),
-          backgroundColor: const Color.fromARGB(0, 255, 255, 255),
+          backgroundColor: Colors.red,
           centerTitle: true,
           elevation: 0),
       body: Consumer<ItemProvider>(
