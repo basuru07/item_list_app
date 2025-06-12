@@ -11,7 +11,11 @@ A simple Flutter application that displays a list of items loaded from a local J
 - **Responsive UI**: Clean and modern design with cards, rounded corners, and proper spacing.
 
 ## Screenshots
-*(Add screenshots of the app here if desired, e.g., `screenshots/list_screen.png` and `screenshots/detail_screen.png`)*
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/432ea878-b83a-4a98-a3b8-4f12a0f5ad39" width="150" alt="Screen 1">
+  <img src="https://github.com/user-attachments/assets/a7366618-9b90-422e-b9de-4a52c9699e7f" width="150" alt="Screen 3">
+  <img src="https://github.com/user-attachments/assets/fba52cff-2103-409f-acf9-75d1c8a95c88" width="150" alt="Screen 2">
+</div>
 
 ## Getting Started
 
@@ -24,7 +28,7 @@ A simple Flutter application that displays a list of items loaded from a local J
 ### Installation
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/basuru07/item_list_app.git
    cd item_list_app
    ```
 
