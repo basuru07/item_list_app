@@ -120,8 +120,3 @@ The `data.json` file contains an array of items with the following structure:
 - **JSON loading error**: Check that `assets/data.json` exists and is valid JSON.
 - **Provider errors**: Ensure the `provider` package is installed (`flutter pub get`).
 
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request with improvements or bug fixes.
-
-## License
-This project is licensed under the MIT License.
